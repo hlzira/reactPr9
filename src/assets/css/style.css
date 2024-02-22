@@ -29,6 +29,11 @@ input {
     border: 1px solid #1f1f1f67;
 }
 
+li {
+    font-size: 22px;
+    color:cornflowerblue;
+}
+
 /* header */
 header {
     margin-top: 20px;
