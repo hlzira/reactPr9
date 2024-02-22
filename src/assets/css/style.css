@@ -34,6 +34,31 @@ li {
     color:cornflowerblue;
 }
 
+/* create_page */
+.btn_dob{
+    padding: 20px 40px;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    color: #e8e8e8;
+    background-color: #102E7A;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.btn_dob:hover{
+    background-color: #102e7ae5;
+}
+
+textarea{
+    font-family: 'Play', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
 /* header */
 header {
     margin-top: 20px;
@@ -74,7 +99,6 @@ header {
     background-color: #102E7A;
     font-size: 20px;
     transition: 0.3s;
-    /* font-weight: bold; */
     border-radius: 2px;
 }
 

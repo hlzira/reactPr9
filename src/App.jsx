@@ -7,6 +7,7 @@ import './assets/css/style.css'
 import CardPage from './pages/CardPage/CardPage'
 import AboutUs from './components/AboutUs/AboutUs'
 import UsersPage from './pages/UsersPage/UsersPage'
+import CreatePage from './pages/CreatePage/CreatePage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
         <Route path="/catalog" element = {<Catalog/>} />
         <Route path="/catalog/:id" element = {<CardPage />} />
         <Route path="/UsersPage" element = {<UsersPage />} />
+        <Route path="/CreatePage" element = {<CreatePage />} />
       </Routes>
     </>
   )

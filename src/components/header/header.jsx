@@ -15,6 +15,7 @@ export default function header() {
                     <Link to="https://github.com/hlzira/reactFull/tree/main/ract2" className="header-link">GitHub</Link>
                     <Link to="/catalog" className="header-link">Каталог</Link>
                     <Link to="/UsersPage" className="header-link">Пользователи</Link>
+                    <Link to="/CreatePage" className="header-link">Добавление</Link>
                 </div>
                 <div className="header-buttons">
                     <Link to="" className="header-btn-auth">Вход</Link>
